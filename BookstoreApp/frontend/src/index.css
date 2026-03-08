@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@variant dark (&:where(.dark, .dark *));
+
+/* Poori body ka background theme ke hisab se set karein */
+:root {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: #0f172a; /* slate-900 */
+  color: white;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Aapki Bounce Animation */
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-10px); 
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+} */
